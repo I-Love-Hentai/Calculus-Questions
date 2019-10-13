@@ -8,7 +8,7 @@ function gen() {
 			result = Algebrite.simplify(generate(terms, cascade, level3)).toString();
 			if (result == "" || !(result.includes("x")) || result.includes("i")) {
 				result = "";
-				throw "Not a valid equation";
+				throw "Not a valid equation dum dum";
 			}
 		}
 		catch (err) {
